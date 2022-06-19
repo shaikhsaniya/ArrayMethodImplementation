@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+button {
+  background: rgb(159, 180, 199);
+  width: 30%;
+  height: 4vh;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.method-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+input {
+  width: 70%;
+  height: 30px;
+  padding-left: 10px;
+}
+.input {
+  padding: 40px 40px 15px 40px;
+  text-align: center;
+}
+
+.alpha {
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+  height: 50px;
+  justify-content: center;
+  row-gap: 30px;
+  font-size: larger;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.alpha button {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+#insertedElmt {
+  font-size: 20px;
+  color: black;
+}
+
+.main-container {
+  width: 100%;
+  background-color: rgb(184, 209, 233);
+  height: 86.5vh;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+}
+.leftdiv,
+.rightdiv {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  background-color: rgb(184, 209, 233);
+ 
+}
+.rightdiv{
+  margin-top: 100px;
+}
+
+header {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  background-color: rgb(93, 95, 200);
+  height: 80px;
+  padding-top: 50px;
+  text-align: center;
+}
+.leftheader {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  background-color: rgb(93, 152, 200);
+  height: 50px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+  }
+  
+.alphaDisplay {
+  padding-left: 10%;
+  width: 80%;
+  color: blueviolet;
+}
+.alphaDisplay p {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  width: 90%;
+  background: #f2e5e5;
+  height: auto;
+  padding: 30px;
+  font-size: 20px;
+  
+}
